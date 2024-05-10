@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "java-basic-2_ecdb23a8"
+        },
+        {
+            "type": "java",
             "name": "XmasTree",
             "request": "launch",
             "mainClass": "XmasTree",

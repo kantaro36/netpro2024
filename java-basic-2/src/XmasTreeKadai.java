@@ -1,4 +1,4 @@
-public class XmasTree {
+public class XmasTreeKadai {
     public static void main(String[] args) {
 		// int i=0;
         // int first,second;
@@ -20,7 +20,7 @@ public class XmasTree {
         //     //first = Integer.parseInt(str);
         //     System.out.println("----次の数字の入力をお願いします ");
 		// }
-        int N=10;
+        int N = 19;
         for (int j = 0; j < N; j++) {
 
             for (int i = 0; i <= N-j; i++) {
@@ -37,13 +37,19 @@ public class XmasTree {
 
             System.out.print("\n");
         }
+
         int M = 7;
         int K = 3;
-        for(int j = 10; j < M; j ++){
-            for(int i = N - 1; i < K; i ++){
-                System.out.println("*");
+        for(int j = 0; j < M; j ++){
+            for(int i = 0; i < 17; i ++){
+            System.out.print(" ");
             }
+            for(int i = 0; i < K; i ++){
+                System.out.print("|");
+            }
+            System.out.print("\n");
         }
+
         System.out.println("---------");
         
 
