@@ -11,6 +11,34 @@ public class Renshu {
     }
 
     public int sumFromPtoQ(int x, int y){
-        return (y / 2) * (x + y);
+        return ;
+    }
+
+    public int testSumFromArrayIndex(int x, int y){
+        return ;
+    }
+
+    public int testSelectMaxValue(int x, int y){
+        return ;
+    }
+
+    public int testSelectMinValue(int x, int y){
+        return ;
+    }
+
+    public int testSelectMaxIndex(int x, int y){
+        return ;
+    }
+
+    public int testSelectMinIndex(int x, int y){
+        return ;
+    }
+
+    public int testSwapArrayElements(int x, int y){
+        return ;
+    }
+
+    public int testSwapTwoArrays(int x, int y){
+        return ;
     }
 }
