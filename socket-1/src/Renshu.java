@@ -1,3 +1,5 @@
+import static org.junit.jupiter.api.Assertions.*;
+
 public class Renshu {
     // xを2倍にして返す関数
     public int doubleValue(int x) {
@@ -14,27 +16,32 @@ public class Renshu {
         return ;
     }
 
-    public int testSumFromArrayIndex(int x, int y){
+    public int testSumFromArrayIndex(int[] a, int index){
         return ;
     }
 
-    public int testSelectMaxValue(int x, int y){
+    public int testSelectMaxValue(int[] a){
         return ;
     }
 
-    public int testSelectMinValue(int x, int y){
+    public int testSelectMinValue(int[] a){
         return ;
     }
 
-    public int testSelectMaxIndex(int x, int y){
+    public int testSelectMaxIndex(int[] a){
         return ;
     }
 
-    public int testSelectMinIndex(int x, int y){
+    public int testSelectMinIndex(int[] a){
         return ;
     }
 
-    public int testSwapArrayElements(int x, int y){
+    public int testSwapArrayElements(int[] p, int i, int j)){
+        int[] p = {10,9,8,4,15,0,-3,18,9,7};
+    //0番目と9番目入れ替え後の配列
+    int[] q = {7,9,8,4,15,0,-3,18,9,10};
+    renshu.swapArrayElements(p, 0, 9);//この瞬間参照渡しのpが書き換わる
+    assertTrue(Arrays.equals(p, q));
         return ;
     }
 
